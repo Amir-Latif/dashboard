@@ -2,6 +2,7 @@
 
 return [
     "Home" => "Home",
+    "User List" => "User List",
     "Starter Kit" => "Starter Kit",
     "Apps & Pages" => "Apps & Pages",
     "User Interface" => "User Interface",

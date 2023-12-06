@@ -2,6 +2,7 @@
 
 return [
     "Home" => "Zuhause",
+    "User List" => "Benutzerliste",
     "Starter Kit" => "Starter-Kit",
     "Apps & Pages" => "Apps & Seiten",
     "User Interface" => "Benutzeroberfläche",

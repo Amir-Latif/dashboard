@@ -7,6 +7,12 @@
       "slug": "home"
     },
     {
+      "url": "/user-list",
+      "name": "User List",
+      "icon": "circle",
+      "slug": "users-userspage"
+    },
+    {
       "name": "Page Layouts",
       "icon": "mail",
       "slug": "",

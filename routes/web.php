@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StaterkitController;
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\UsersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,3 +28,6 @@ Route::get('layouts/blank', [StaterkitController::class, 'layout_blank'])->name(
 
 // locale Route
 Route::get('lang/{locale}', [LanguageController::class, 'swap']);
+
+// pages
+Route::get('user-list', [UsersController::class, 'view_user_list'])->name('user-list');
